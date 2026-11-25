@@ -1,0 +1,82 @@
+{
+ "flows": [
+  {
+   "channel": "Apple Ads",
+   "term": "weatherbug",
+   "headline": "Welcome to WeatherBug!",
+   "paywall_opens_on": "“Instant Clarity, Zero Distractions”, Annual preselected at $10.99/yr ($0.92/mo), after their Home is set",
+   "note": "asks “What should be first on your Home?” (Card Ordering) and turns notifications on before the price"
+  },
+  {
+   "channel": "Apple Ads",
+   "term": "realfeel",
+   "headline": "How it really feels, on every hour",
+   "paywall_opens_on": "4.8 stars from 2.2M US ratings and two US reviews above the plans",
+   "note": "shows Feels 86° next to 82° and the hourly Feels Like detail before the price"
+  },
+  {
+   "channel": "Apple Ads",
+   "term": "lightning",
+   "headline": "Track Lightning Strikes Live",
+   "paywall_opens_on": "“Safety without interruption” with the free week as Today, Day 6, Day 7",
+   "note": "the Spark™ Lightning map with lightning alerts switched on before the price"
+  }
+ ],
+ "prices": {
+  "yearly": "$10.99",
+  "monthly": "$1.99",
+  "trial": "7 days",
+  "source": "their paywall screenshot; US App Store In-App Purchases (“Annual Ad Free Subscription”, “Monthly Ad Free Subscription”)"
+ },
+ "today": {
+  "text": "every install meets “Welcome to WeatherBug!”, the iOS tracking prompt and Home; the “Instant Clarity, Zero Distractions” paywall opens only from the menu’s “Your Weather, Ad Free · Try Free”",
+  "source": "audit_frames"
+ },
+ "asks": [
+  "What should be first on your Home?",
+  "When do you check how it feels outside?",
+  "When do you need to know about lightning?"
+ ],
+ "paywall": {
+  "headline": "Instant Clarity, Zero Distractions",
+  "uses_answers": false
+ },
+ "rebuild": "each Apple Ads search opens its own welcome, one question and a first win before the price, and the paywall shows once in the first launch",
+ "ideas": [
+  {
+   "n": 1,
+   "title": "Show your paywall in the first launch",
+   "screen": "Paywall",
+   "outcome": "CR +10–20%"
+  },
+  {
+   "n": 2,
+   "title": "Open on the search they typed",
+   "screen": "Arrive",
+   "outcome": "CR +10–20%"
+  },
+  {
+   "n": 3,
+   "title": "Ask one thing, set it up before the price",
+   "screen": "First win",
+   "outcome": "CR +10–15%"
+  },
+  {
+   "n": 4,
+   "title": "Show 2.2M ratings where they decide",
+   "screen": "Paywall",
+   "outcome": "CR +5–10%"
+  },
+  {
+   "n": 5,
+   "title": "Put the saving and the free week in numbers",
+   "screen": "Paywall",
+   "outcome": "ARPU +5–10%"
+  }
+ ],
+ "languages": [
+  "en",
+  "es"
+ ],
+ "url": "https://eddieatadapty.github.io/weatherbug-flow-rebuild/"
+}
